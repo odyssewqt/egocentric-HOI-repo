@@ -1,3 +1,3 @@
 | Name | Year | Size | Annotation | Task | Paper Link | Official Link |
 |------|------|------|------------|------|------------|---------------|
-| HOI4D | 2022 | 2.4M RGB-D frames, 4000 sequences, 610 rooms | Panoptic segmentation; Motion segmentation; 3D hand pose; Category-level object pose; Hand action; Object meshes; Scene point clouds | D semantic segmentation; Category-level object pose tracking; Egocentric action segmentation | [Paper](https://arxiv.org/abs/2204.02522) | [Dataset](http://epic-kitchens.github.io) |
+| HOI4D | 2022 | 2.4M RGB-D frames, 4000 sequences, 610 rooms | Panoptic segmentation; Motion segmentation; 3D hand pose; Category-level object pose; Hand action; Object meshes; Scene point clouds | 4D semantic segmentation; Category-level object pose tracking; Egocentric action segmentation | [Paper](https://arxiv.org/abs/2204.02522) | [Dataset](http://epic-kitchens.github.io) |
