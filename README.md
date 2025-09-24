@@ -9,7 +9,6 @@
 - [概述](#概述)
 - [论文列表](#论文列表)
 - [数据集列表](#数据集列表)
-- [如何使用](#如何使用)
 
 ---
 
@@ -63,11 +62,3 @@ Egocentric HOI 研究聚焦于 **第一视角的人-物交互**，主要研究�
 | EPIC-KITCHENS | 2018 | 55 hrs video | Action + Object | HOI Detection | [Paper](https://arxiv.org/abs/1806.04458) | [Dataset](http://epic-kitchens.github.io) |
 
 ---
-
-## 如何使用
-
-1. 克隆仓库：
-
-```bash
-git clone git@github.com:<你的用户名>/egocentric-HOI-repo.git
-cd egocentric-HOI-repo
