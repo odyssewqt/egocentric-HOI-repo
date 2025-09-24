@@ -1,0 +1,5 @@
+| Year | Title | Venue |  Abstract | Contribution |
+|------|-------|-------|-----------|-------------|
+| 2022 | **HOI4D: A Large-Scale 4D Egocentric Dataset for Category-Level Human-Object Interaction** | CVPR | 提出 HOI4D，一个大规模4D自我中心数据集，旨在推动类别级人体-物体交互研究。数据集包含2.4M RGB-D视频帧，4000序列，4名参与者与800个不同物体实例（16类）在610个室内房间中的交互。提供帧级全景分割、动作分割、3D手部姿态、类别级物体位姿及手部动作标注，并附物体网格与场景点云。基于HOI4D，建立了三类基准任务：4D 动态点云序列语义分割、类别级物体位姿跟踪和自我中心动作分割。分析显示HOI4D对现有方法提出挑战并提供丰富研究机会。 | 数据集发布 |
+| 2025 | **HOT3D: A Multi-View Egocentric Dataset for 3D Hand and Object Tracking** | CVPR | 介绍了HOT3D，一个公开的自我中心3D手部与物体跟踪数据集。数据集包含超过833分钟（370万+ 图像），涵盖19名参与者与33种刚体物体的交互动作，包括简单拾取、观察、放下以及厨房、办公室、客厅环境中的常规动作。数据包含多视角 RGB/单色图像、眼动信号、场景点云以及相机、手部和物体的三维姿态。手部标注采用UmeTrack和MANO格式，物体以PBR材质的3D网格表示。实验显示，多视角方法在 3D手部跟踪、6DoF物体位姿估计以及未知在手物体3D提升任务中显著优于单视角方法。| 数据集发布 |
+| 2025 | **Ego4o: Multi-modal Egocentric Human Motion Capture and Understanding** | CVPR | 提出Ego4o框架，通过结合来自可穿戴设备的多模态输入（IMU、第一人称图像、文本描述），实现人体运动捕捉与理解。方法在部分输入和多模态融合下均保持高精度，并可利用 LLM 生成文本描述辅助运动捕捉。实验结果表明，在运动跟踪精度和描述质量上显著优于现有方法。 | 方法创新 |
