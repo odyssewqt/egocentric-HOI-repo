@@ -61,4 +61,6 @@ Egocentric HOI 研究聚焦于 **第一视角的人-物交互**，主要研究�
 |------|------|------|------------|------|------------|---------------|
 | EPIC-KITCHENS | 2018 | 55 hrs video | Action + Object | HOI Detection | [Paper](https://arxiv.org/abs/1806.04458) | [Dataset](http://epic-kitchens.github.io) |
 
+同时根据数据集不同的模态类别对数据集进行了分类整理，保存在`datasets/datasets.md`。
+
 ---
