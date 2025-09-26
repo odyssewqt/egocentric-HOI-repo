@@ -27,7 +27,7 @@ Egocentric HOI 研究聚焦于 **第一视角的人-物交互**，主要研究�
 
 ---
 
-## 论文列表(CVPR/ECCV/NeurIPS/ICCV/WACV/ACM MM等 2020-2025)
+## 论文列表 *(CVPR/ECCV/NeurIPS/ICCV/WACV/ACM MM等 2020-2025)*
 
 论文列表保存在 `papers/papers.md`，包含字段：
 
@@ -45,7 +45,7 @@ Egocentric HOI 研究聚焦于 **第一视角的人-物交互**，主要研究�
 
 ---
 
-## 数据集列表(CVPR/ECCV/NeurIPS/ICCV/WACV/ACM MM等 2020-2025)
+## 数据集列表 *(CVPR/ECCV/NeurIPS/ICCV/WACV/ACM MM等 2020-2025)*
 
 数据集列表保存在 `datasets/datasets.md`，包含字段：
 
