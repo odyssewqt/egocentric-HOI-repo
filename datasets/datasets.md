@@ -30,3 +30,46 @@
 | **EgoHOS** | 2022 | 11,243 images | Pixel-wise hand-object segmentation with contact boundaries | Hand-object segmentation, hand state classification, video activity recognition, 3D reconstruction | [Paper](https://arxiv.org/abs/2208.03826) | [Project](https://github.com/owenzlz/EgoHOS) |
 | **H2O** | 2021 | 多视角 RGB-D 视频，双手操作物体 | 左/右手 3D 姿态、物体 6D 姿态、交互标签、物体类别、相机位姿、物体网格、场景点云 | 第一视角手-物体交互识别、双手姿态估计、6D 物体姿态估计 | [Paper](https://arxiv.org/abs/2104.11181) | [Project](https://taeinkwon.com/projects/h2o/) |
 | **MECCANO** | 2021 | 工业场景: 20 participants, 100+ videos (motorbike assembly) | Temporal action segments; Active object bounding boxes | Action recognition; Active object detection; Active object recognition; Egocentric HOI detection | [Paper](https://arxiv.org/abs/2010.05654) | [Project](https://iplab.dmi.unict.it/MECCANO) |
+
+## Egocentric HOI Datasets by Modalities
+
+根据数据集模态类别对数据集进行整理并粗略分类，因任务不同，数据集包含的数据模态也不同，可以发现数据集主要集中在以下几个模态：
+
+- `RGB/Video`：图像RGB数据或视频帧数据，主要做检测、识别、分割、生成等任务  
+- `Depth/PointCloud`：深度数据，RGB-D、相机位姿、动态点云、场景深度、手/物体6D位姿，主要做3D重建、位姿估计、跟踪等任务  
+- `3D Pose/Mesh`：3D手/人体姿态数据，物体交互数据，比如HOT3D包括3D手、物体、mesh等，强调手/身体/物体的三维姿态标注。  
+- `Multimodel`：图像和视频数据、音频数据、gaze数据、IMU数据、文本及其语音数据(比如对话数据)，数据集规模大，做感知、理解、推理等任务。
+- `other`：其他的数据，如EgoPressure数据集使用压力传感器，包含压力数据。N-EPIC-Kitchens数据集使用Event camera，捕捉运动物体数据。
+
+
+| Dataset | RGB/Video | Depth/PointCloud | 3D Pose/Mesh | Audio | Eye Gaze | IMU | Text |
+|---------|-----------|------------------|--------------|-------|----------|-----|---------------|
+| HOT3D (2025)        | ✅ | ❌ | ✅ (hand/object mesh) | ❌ | ✅ | ❌ | ❌ |
+| EgoPressure (2025)  | ✅ | ❌ | ✅ (hand mesh) | ❌ | ❌ | ❌ | ❌ |
+| Ego-IRGBench (2025) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ (text queries) |
+| EgoMe (2025)        | ✅ (exo-ego) | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ |
+| HUMOTO (2025)       | ✅ | ❌ | ✅ (motion capture) | ❌ | ❌ | ❌ | ❌ |
+| HOIGen-1M (2025)    | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ (text) |
+| HD-EPIC (2025)      | ✅ | ✅ (3D align) | ✅ | ✅ | ✅ | ❌ | ✅ |
+| IT3DEgo (2024)      | ✅ | ✅ | ✅ (2D+3D coords) | ❌ | ❌ | ❌ | ❌ |
+| VISOR-NVOS (2024)   | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ (narrations) |
+| HOI-Synth (2024)    | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| Ego-Exo4D (2024)    | ✅ | ✅ (point cloud) | ✅ (pose) | ✅ | ✅ | ✅ | ✅ |
+| EgoBody3M (2024)    | ✅ | ❌ | ✅ (body pose) | ❌ | ❌ | ❌ | ❌ |
+| MMG-Ego4D (2023)    | ✅ | ❌ | ❌ | ✅ | ❌ | ✅ | ❌ |
+| DogThruGlasses (2023)| ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| AssemblyHands (2023)| ✅ | ❌ | ✅ (hand pose) | ❌ | ❌ | ❌ | ❌ |
+| EgoGTA/EgoPW-Scene (2023)| ✅ | ✅ (depth) | ✅ (pose) | ❌ | ❌ | ❌ | ❌ |
+| EgoTracks (2023)    | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| EgoObjects (2023)   | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| EgoPCA (2023)       | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| HoloAssist (2023)   | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| EgoPAT3D (2022)     | ✅ | ✅ (RGB-D) | ❌ | ❌ | ❌ | ✅ | ❌ |
+| Ego4D (2022)        | ✅ | ✅ (3D env mesh) | ✅ (pose) | ✅ | ✅ | ✅ | ✅ |
+| HOI4D (2022)        | ✅ | ✅ (RGB-D+point cloud) | ✅ (hand pose, object pose) | ❌ | ❌ | ❌ | ❌ |
+| N-EPIC-Kitchens (2022)| ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| EgoPW (2022)        | ✅ | ❌ | ✅ (human pose) | ❌ | ❌ | ❌ | ❌ |
+| EgoHOS (2022)       | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| H2O (2021)          | ✅ | ✅ (RGB-D+point cloud) | ✅ (hand+object pose) | ❌ | ❌ | ❌ | ❌ |
+| MECCANO (2021)      | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
+
