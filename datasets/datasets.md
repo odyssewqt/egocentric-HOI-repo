@@ -41,18 +41,19 @@
 - `Multimodel`：图像和视频数据、音频数据、gaze数据、IMU数据、文本及其语音数据(比如对话数据)，数据集规模大，做感知、理解、推理等任务。
 - `other`：其他的数据，如EgoPressure数据集使用压力传感器，包含压力数据。N-EPIC-Kitchens数据集使用Event camera，捕捉运动物体数据。
 
+---
 
 | Dataset | RGB/Video | Depth/PointCloud | 3D Pose/Mesh | Audio | Eye Gaze | IMU | Text |
 |---------|-----------|------------------|--------------|-------|----------|-----|---------------|
 | HOT3D (2025)        | ✅ | ❌ | ✅ (hand/object mesh) | ❌ | ✅ | ❌ | ❌ |
 | EgoPressure (2025)  | ✅ | ❌ | ✅ (hand mesh) | ❌ | ❌ | ❌ | ❌ |
-| Ego-IRGBench (2025) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ (text queries) |
-| EgoMe (2025)        | ✅ (exo-ego) | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ |
+| Ego-IRGBench (2025) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
+| EgoMe (2025)        | ✅ | ❌ | ❌ | ❌ | ✅ | ✅ | ❌ |
 | HUMOTO (2025)       | ✅ | ❌ | ✅ (motion capture) | ❌ | ❌ | ❌ | ❌ |
-| HOIGen-1M (2025)    | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ (text) |
+| HOIGen-1M (2025)    | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 | HD-EPIC (2025)      | ✅ | ✅ (3D align) | ✅ | ✅ | ✅ | ❌ | ✅ |
 | IT3DEgo (2024)      | ✅ | ✅ | ✅ (2D+3D coords) | ❌ | ❌ | ❌ | ❌ |
-| VISOR-NVOS (2024)   | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ (narrations) |
+| VISOR-NVOS (2024)   | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ |
 | HOI-Synth (2024)    | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 | Ego-Exo4D (2024)    | ✅ | ✅ (point cloud) | ✅ (pose) | ✅ | ✅ | ✅ | ✅ |
 | EgoBody3M (2024)    | ✅ | ❌ | ✅ (body pose) | ❌ | ❌ | ❌ | ❌ |
