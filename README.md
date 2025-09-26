@@ -2,6 +2,8 @@
 
 📚 本仓库系统整理了 **近 5 年（2020–2025）Egocentric Human-Object Interaction (HOI)** 领域的论文和数据集。
 
+> ⚡ 本仓库 **持续更新中**。
+
 ---
 
 ## 目录
