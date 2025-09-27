@@ -74,8 +74,8 @@
 | H2O (2021)          | ✅ | ✅ (RGB-D+point cloud) | ✅ (hand+object pose) | ❌ | ❌ | ❌ | ❌ |
 | MECCANO (2021)      | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
-| Dataset | Year | Data Size(h/frames) | Action Classes | Action Instances | Bounding Boxes | Includes Video | Participants | Ego (Egocentric) |
-|---------|------|---------------------|----------------|------------------|----------------|----------------|--------------|------------------|
+| Dataset | Year | Data Size(h/frames) | Action Classes | Action Instances | Bounding Boxes | Includes Video | Participants | Ego |
+|---------|------|---------------------|----------------|------------------|----------------|----------------|--------------|-----|
 | HOT3D | 2025 | 13.9h | - | - | -  | ✅ | 19 | ✅ |
 | EgoPressure | 2025 | 5h | - | - | - | ✅ | 21 | ✅ |
 | EgoMe | 2025 | 82.8h | 184 | - | - | ✅ | 37 | ✅ |
