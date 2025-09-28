@@ -45,6 +45,11 @@ Egocentric HOI 研究聚焦于 **第一视角的人-物交互**，主要研究�
 
 ---
 
+将论文按照主要研究方向，分为姿态估计、动作识别、HOI检测、HOI分割、交互预测、多模态融合以及高级任务(重建、建模、生成、仿真)。
+**papers**文件夹下设七个子文件夹，分别保存各个领域方向的paper，每个子文件夹下都有一个**README.md**，写明文章出处，被引用率以及GitHub star数。
+
+---
+
 ## 数据集列表 *(CVPR/ECCV/NeurIPS/ICCV/WACV/ACM MM等 2020-2025)*
 
 数据集列表保存在 `datasets/datasets.md`，包含字段：
