@@ -75,7 +75,14 @@
 | MECCANO (2021)      | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ |
 
 
-## The Instruction of Egocentric HOI Datasets
+## 4 Datasets and Evaluation Metrics for Egocentric HOI
+The validity of vision-based egocentric human-computer interaction (HOI) research methods depends heavily on the quality and diversity of datasets, as well as robust evaluation metrics. This chapter explores public datasets that have played a key role in the development of the field. We then present some evaluation metrics for assessing the performance of various methods, focusing on interaction detection, prediction and reconstruction tasks. This chapter provides an important foundation for understanding how datasets and metrics influence progress in self-centered HOI research.
+
+**4.1 Datasets**
+
+The effectiveness of self-centered vision-based human-computer interaction (HOI) research methods is highly dependent on the quality and diversity of datasets and robust evaluation metrics. In this part of the narrative, we begin with a listing of some classic datasets that have been validated on a wide range of methods, as shown in **Table 1**, and for some completely new methods, we summarize them afterwards.
+
+**Table 1 Dataset**
 
 ---
 

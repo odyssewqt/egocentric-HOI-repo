@@ -23,7 +23,7 @@ Egocentric HOI 研究聚焦于 **第一视角的人-物交互**，主要研究�
 3. **HOI检测（HOI Detection）**：判断人-物交互关系 `(person, verb, object)`  
 4. **交互预测（Anticipation and Motion Forecasting Model）**：手-物空间的位置和轨迹预测以及预测接下来的动作  
 5. **多模态融合（Multimodal Fusion）**：整合 RGB、深度、光流、手部关键点等信息  
-6. **高级任务**：三维重建（3D Reconstruction）、交互建模（Interaction Modeling）
+6. **高级任务**：三维重建（3D Reconstruction）、交互建模（Interaction Modeling）、仿真建模
 
 ---
 
