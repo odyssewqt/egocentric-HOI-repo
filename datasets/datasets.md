@@ -84,8 +84,6 @@ The effectiveness of self-centered vision-based human-computer interaction (HOI)
 
 **Table 1 Dataset**
 
----
-
 | Dataset | Year | Data Size(h/frames) | Action Classes | Action Instances | Bounding Boxes | Includes Video | Participants | Ego |
 |---------|------|---------------------|----------------|------------------|----------------|----------------|--------------|-----|
 | HOT3D | 2025 | 13.9h | - | - | -  | ✅ | 19 | ✅ |
@@ -107,6 +105,7 @@ The effectiveness of self-centered vision-based human-computer interaction (HOI)
 | H2O | 2021 | 158.8h | - | - | 571645 | ✅ | - | ✅ |
 | EGTEA Gaze+ | 2020 | 28h | 106 | 10321 | - | ✅ | 32 | ✅ |
 | EPIC-KITCHENS | 2018 | 55h | 149 | 50 | 454255 | ✅ | 32 | ✅ |
+
 
 1. **EPIC-KITCHENS**
 
