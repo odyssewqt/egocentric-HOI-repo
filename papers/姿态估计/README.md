@@ -11,3 +11,5 @@
 | 2024 | **3D Hand Pose Estimation in Everyday Egocentric Images** | ECCV | 11 | 37 | ❌ |
 | 2024 | **EgoPoseFormer: A Simple Baseline for Stereo Egocentric 3D Human Pose Estimation** | ECCV | 4 | 12 | ❌ |
 | 2024 | **EgoBody3M: Egocentric Body Tracking on a VR Headset using a Diverse Dataset** | ECCV | 5 | 15 | ❌ |
+| 2025 | **EgoCast: Forecasting Egocentric Human Pose in the Wild** | WACV | 4 | 4 | ✅(RGB + 传感器) |
+| 2024 | **Ego2HandsPose: A Dataset for Egocentric Two-hand 3D Global Pose Estimation** | WACV | 6 | - | ❌ |
